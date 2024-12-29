@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.logo{
+    font-family: "Montserrat";
+    margin-right: 3%;
+}
+nav ul>li{
+    
+}
+
+nav ul{
+    font-family: "Lexend";
+    font-weight: 300;
+    font-size: 14px;
+    display: flex;
+   
+    gap: 30px;
+    text-decoration: none;
+    list-style: none;
+    
+    
+}
+
