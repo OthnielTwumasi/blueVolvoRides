@@ -5,27 +5,37 @@
 }
 
 nav{
-    margin-top: 3%;
+    margin-top: 0%;
+    padding:3%;
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-between;
+}
+body,html{
+    height: 100%;
 }
 
+.hero{
+    height: 100vh;
+    background-image: url(assets/images/bmw.jpg);
+    background-position: 10% 50%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
 .logo{
     font-family: "Montserrat";
-    margin-right: 3%;
+    margin-right: 5%;
+    color: white;
 }
-nav ul>li{
-    
-}
+
 
 nav ul{
     font-family: "Lexend";
     font-weight: 300;
     font-size: 14px;
     display: flex;
+    color: white;
    
-    gap: 30px;
+    gap: 40px;
     text-decoration: none;
     list-style: none;
     
