@@ -17,12 +17,17 @@ body,html{
 .hero{
     height: 100vh;
     background-image: url(assets/images/bmw.jpg);
-    background-position: 10% 50%;
+    background-position: 3% 5%;
     background-repeat: no-repeat;
     background-size:cover;
 }
-.logo{
+
+.logo,.call_to_action>h1{
     font-family: "Montserrat";
+}
+
+.logo{
+   
     margin-right: 5%;
     color: white;
 }
@@ -39,6 +44,30 @@ nav ul{
     text-decoration: none;
     list-style: none;
     
-    
 }
+
+.call_to_action h1{
+    margin-top: 3%;
+    color: #008ca3 ;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    text-shadow: 3px 3px 1px black;
+}
+.call_to_action span{
+   color: white;
+   font-style:italic ;
+   text-decoration:  line-through;
+}
+
+.call_to_action>p{
+font-family: "Lexend";
+color: white;
+font-size: 16px;
+text-align: center;
+text-shadow: 3px 3px 1px black;
+}
+
+
+
 
