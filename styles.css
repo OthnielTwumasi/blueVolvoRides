@@ -17,9 +17,10 @@ body,html{
 .hero{
     height: 100vh;
     background-image: url(assets/images/bmw.jpg);
-    background-position: 3% 5%;
+    background-position: 0% 0%;
     background-repeat: no-repeat;
     background-size:cover;
+    position: relative;
 }
 
 .logo,.call_to_action>h1{
@@ -68,6 +69,15 @@ text-align: center;
 text-shadow: 3px 3px 1px black;
 }
 
-
+button{
+    padding: 1.2%;
+    background-color: #008ca3;
+    position: absolute;
+    top: 45%; 
+    left: 51.5%;
+    transform: translate(-50%, -50%);
+    
+   
+}
 
 
