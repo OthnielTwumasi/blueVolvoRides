@@ -40,12 +40,23 @@ nav ul{
     font-size: 14px;
     display: flex;
     color: white;
-   
     gap: 40px;
     text-decoration: none;
     list-style: none;
+   
     
 }
+
+nav ul>li>a{
+    text-decoration: none;
+    color:white;
+    transition: color ease 0.3s
+    
+}
+nav ul li a:hover{
+    color:#008ca3; 
+}
+
 
 .call_to_action h1{
     margin-top: 3%;
@@ -75,9 +86,11 @@ button{
     position: absolute;
     top: 45%; 
     left: 51.5%;
-    transform: translate(-50%, -50%);
-    
-   
+    transform: translate(-50%, -50%); 
+    transition: color ease 0.3s;
 }
 
 
+button:hover{
+    color: white;
+}
